@@ -62,6 +62,9 @@ document.querySelector('.display-topright').addEventListener('click',function(){
         alert('All fields are required');
     }else{
         document.getElementById('modal').style.display="none";
+        document.querySelectorAll('.red-info')[0].innerHTML="XXX";
+        document.querySelectorAll('.red-info')[1].innerHTML="XXX";
+        
     }
     
 })
